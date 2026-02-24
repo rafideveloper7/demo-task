@@ -45,7 +45,7 @@ export const login = async (email, password) => {
     });
     return response;
   } catch (error) {
-    console.log('CORS error - using mock login');
+    console.log('CORS error - using demo login');
     // Accept provided credentials for demo
     if (email === 'ubktowing@gmail.com' && password === 'Ubk.ali@2025') {
       return { data: { token: 'demo-token-12345' } };
