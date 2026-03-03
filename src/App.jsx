@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { AuthContext, AuthProvider } from './contexts/AuthContext';
 import ProtectedRoute from './ProtectedRoutes/ProtectedRoutes';
 
-import LoginPage from './features/auth/LoginPage';
+import LoginPage from './Pages/LoginPage.jsx';
 import DriversPage from './Pages/DriversPage';
 import ClientsPage from './Pages/ClientsPage';
 import StatsPage from './features/stats/StatsPage';
