@@ -1,16 +1,43 @@
-# React + Vite
+# Hifah Technologies - Demo Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Overview
+Fleet management dashboard built for Hifah Technologies technical assessment. Track drivers, clients, and earnings with a clean, responsive interface.
 
-Currently, two official plugins are available:
+**Live Demo:** [https://demo-task-9riq.vercel.app/](https://demo-task-9riq.vercel.app/)  
+**GitHub:** [https://github.com/rafideveloper7/demo-task](https://github.com/rafideveloper7/demo-task)  
+**Login:** `ubktowing@gmail.com` / `Ubk.ali@2025`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+- **Authentication** - Secure login with protected routes
+- **Dashboard** - Key metrics, driver/client lists with tabs
+- **Drivers** - List, filter by status, search, pagination
+- **Clients** - List with service badges, filter by type
+- **Smart API Layer** - Auto-falls back to mock data when real API fails (CORS)
+- **Fully Responsive** - Mobile cards, tablet grids, desktop tables
 
-## React Compiler
+##  Tech Stack
+React 18 | Tailwind CSS | React Router | Axios | Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Quick Start
+```bash
+git clone https://github.com/rafideveloper7/demo-task.git
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+##  Key Highlights
+- **CORS Handling**: APIs had CORS issues → built auto-fallback to mock data
+- **Figma Perfect**: Pixel-perfect implementation of provided design
+- **Resilient**: UI never breaks, always shows data (real or mock)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Structure
+```
+src/
+├── features/    # Auth, drivers, clients, stats
+├── layouts/     # Dashboard layout
+├── services/    # API + mock data (auto-switch)
+└── pages/       # Page components
+```
+
+---
+**Submitted for:** Hifah Technologies - Frontend Developer Task
